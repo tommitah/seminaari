@@ -1,0 +1,28 @@
+CppCon14, Mike Acton
+Title: Ohjelmointiongelmien mallinnus ja Datakeskeinen kehitys peleissä
+Esittely
+	Taustat
+Johdanto
+	Given the purpose of all programs is to transform data
+	-> if you don't understand the data, you don't understand the problem
+	-> if you don't understand the cost of solving the problem, you don't understand
+	the problem
+	EVERYTHING is a data problem.
+Sisältö
+Yleiskatsaus - Termit
+	What dod IS NOT?
+	Modeling code around the real world: OOP and such
+		-> "Premature optimization..." in the inverse!
+	Cache: what is it and why do we have it?
+		-> Addressing cache misses
+
+DOD yleisesti
+
+
+ECS (ja Unityssä)
+	Important note: ECS is an _implementation_ of DOD!
+Haasteita
+Esimerkkejä Unitystä?
+
+
+Otsikko: Funktionaalinen ohjelmoinnin hyödyt webkehityksessä
