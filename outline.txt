@@ -1,0 +1,49 @@
+Introductions:
+	Kuka olen, mistä tulen, mitä teen.
+	TIVI, peliohjelmointi ja oma kaari
+
+	skipataan historia ja rankimmat cs/matikkatermit kuten monad
+
+1. Mitä on funktionaalinen ohjelmointi?:
+	1.1 paradigma
+	1.2 deklaratiivisuus vs imperatiivisuus
+	1.3 funktionaaliset kielet
+
+2. Mihin sitä käytetään?:
+	2.1 tiede yms.
+		2.1.1 algoritmit
+		2.1.2 datatiede ja -analyysi
+		2.1.3 Matemaatikot ja tietojenkäsittelytieteilijät pitävät funktionaalisesta,
+				sillä jokaiselle x, f(x) on aina sama.
+	2.2 kaupalliset tuotteet/palvelut
+		2.2.1 "palvelut" eli services web ohjelmoinnissa (julkiset rajapinnat)
+		2.2.2 "tilaton" eli stateless
+
+3. Pros and cons?:
+	+
+	3.1 korrektius
+	3.2 testattavuus
+	-
+	3.3 joskus hidasta (ei tehokasta resurssien käyttöä)
+	3.4 Peliesimerkki: State machine
+
+4. Konseptit, säännöt ja hyvät tavat
+	4.1 immutability, eli olioiden tila ei muutu
+		esim. JS array high order functions
+	4.2 "First Class" funktiot
+		eli funktioita voidaan käyttää kuten muuttujia.
+	4.3 Ei tilaa, eli ei kosketa mihinkään "tilalliseen" ohjelman sisällä,
+		ainoastaan funktion parametreihin.
+	4.4 Ei sivuvaikutuksia 
+		=> kääntäjä- ja kehitystason optimointi sekä turvallinen refaktorointi
+		=> Kielentasolla: turvalliset rinnastamiset (parallelization haskell not js etc.)
+	4.5 Kaikille x, f(x) on aina sama
+	4.3 + 4.4 + 4.5 => puhdas funktio
+
+5. Web ohjelmointi/esimerkkejä
+	"MadMaths" esimerkki:
+	const toMax = (max, value) => Math.max(max, value)
+	[1,2,3,4].reduce(toMax)
+
+extra:
+6. Unity ja LINQ
