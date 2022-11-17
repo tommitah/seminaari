@@ -5,6 +5,9 @@ export const setNotification = (message, timeout) => {
 	}
 }
 
+const toMax = (max, value) => Math.max(max, value);
+[1,2,3,4].reduce(toMax);
+
 // higher order functions vs loops
 let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
 let primes = [];

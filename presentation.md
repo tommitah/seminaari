@@ -34,7 +34,7 @@ styles:
 - Webohjelmoinnin "service"-komponentit
 - Tilaton ohjelmointi
 
-# Tunnettuja kaupallisia tuotteita ja palveluita
+# Missä?
 
 ![10](/home/tommitah/development/seminaari/img/wapp.png)
 ![10](/home/tommitah/development/seminaari/img/disco.png)
@@ -45,7 +45,7 @@ styles:
 # Miksi?
 - Korrektius
 - Testattavuus
-![25](/home/tommitah/development/seminaari/img/lightbulb.png)
+![20](/home/tommitah/development/seminaari/img/lightbulb.png)
 
 # ...Mutta!
 - Resurssien käytön tehottomuus ajoittain
@@ -57,4 +57,35 @@ styles:
 2. "First Class" funktiot
 3. Tilaton
 4. *EI* sivuvaikutuksia
+5. Jokaiselle x, f(x) on sama
+
+==> Puhtaat funktiot
+
+# "MadMaths" esimerkki
+![20](/home/tommitah/development/seminaari/img/madmaths.png)
+
+# Tietokantaesimerkki
+![20](/home/tommitah/development/seminaari/img/database.png)
+
+# Tietokantaesimerkki
+![20](/home/tommitah/development/seminaari/img/buildsearch.png)
+
+# Proseduraalinen vs funktionaalinen alkuluku
+![20](/home/tommitah/development/seminaari/img/procedural.png)
+
+# Proseduraalinen vs funktionaalinen alkuluku
+![20](/home/tommitah/development/seminaari/img/functional.png)
+
+# Unity ja C# LINQ
+## LINQ = Language Integrated Query
+![20](/home/tommitah/development/seminaari/img/linqdev.png)
+
+# Unity ja C# LINQ
+![10](/home/tommitah/development/seminaari/img/linqexample1.png)
+![10](/home/tommitah/development/seminaari/img/linqexample2.png)
+
+
+
+
+
 
